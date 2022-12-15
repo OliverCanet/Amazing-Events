@@ -1,0 +1,45 @@
+.bgColor1{
+    background-color: rgb(255, 238, 238)!important;
+}
+.bgColor2{
+    background-color: rgb(255, 246, 234)!important;
+}
+.bgColor3{
+    background-color: rgb(247, 233, 215)!important;
+}
+.bgColor4{
+    background-color: rgb(235, 216, 195)!important;
+}
+.widthInputSmall{
+    width: 20rem !important;
+}
+.widthInputBig{
+    width: 20rem !important;
+    height: 10rem!important;
+}
+main{
+    min-height: 633px!important;
+}
+th ,td{
+    height: 40.5px;
+}
+.medidasCard{
+    height: 100%!important;
+    width: 100%;
+}
+
+@media screen and (max-width:425px){
+    #todoNav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    #detailsCard{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+}
